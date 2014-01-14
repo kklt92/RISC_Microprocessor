@@ -1,0 +1,29 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# Adding file Y:\EE3A1\my_designs\re-order\RISC_microprocessor\src\finaltest_ok.asdb ... Done
+# Adding file Y:\EE3A1\my_designs\re-order\RISC_microprocessor\src\finaltest_ok.awc ... Done
+acom -work RISC_microprocessor -2002  $dsn/src/register.vhd $dsn/src/reorderbuffer.vhd $dsn/src/registerforward.vhd $dsn/src/alu.vhd $dsn/src/mpbeta.vhd $dsn/src/testprocessor.vhd $dsn/src/testreorder.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: Y:\EE3A1\my_designs\re-order\RISC_microprocessor\src\register.vhd
+# Compile Entity "rom"
+# Compile Architecture "rtl" of Entity "rom"
+# File: Y:\EE3A1\my_designs\re-order\RISC_microprocessor\src\reorderbuffer.vhd
+# Compile Entity "reorderBuffer"
+# Compile Architecture "rtl" of Entity "reorderBuffer"
+# File: Y:\EE3A1\my_designs\re-order\RISC_microprocessor\src\registerforward.vhd
+# Compile Entity "rForward"
+# Compile Architecture "rtl" of Entity "rForward"
+# File: Y:\EE3A1\my_designs\re-order\RISC_microprocessor\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "rtl" of Entity "alu"
+# File: Y:\EE3A1\my_designs\re-order\RISC_microprocessor\src\mpbeta.vhd
+# Compile Entity "mpBeta"
+# Compile Architecture "rtl" of Entity "mpBeta"
+# File: Y:\EE3A1\my_designs\re-order\RISC_microprocessor\src\testprocessor.vhd
+# Compile Entity "testP"
+# Compile Architecture "test" of Entity "testP"
+# File: Y:\EE3A1\my_designs\re-order\RISC_microprocessor\src\testreorder.vhd
+# Compile Entity "testReorder"
+# Compile Architecture "test" of Entity "testReorder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  3.0 [s]

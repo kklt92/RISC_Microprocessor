@@ -1,0 +1,7 @@
+i<>.\src\ALU.vhd
+i<>.\src\register.vhd
+i<>.\src\testProcessor.vhd
+i<>.\src\mpBeta.vhd
+i<>.\src\ForwardLogic.vhd
+i<>.\src\ReorderBuffer.vhd
+i<>.\src\testReorder.vhd

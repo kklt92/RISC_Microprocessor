@@ -1,0 +1,15 @@
+2765
+~E 1 "./src/registerforward.vhd" 5 rforward
+~A 1 "./src/registerforward.vhd" 19 rtl
+~E 1 "./src/mpbeta.vhd" 4 mpbeta
+~A 1 "./src/mpbeta.vhd" 19 rtl
+~E 1 "./src/alu.vhd" 5 alu
+~A 1 "./src/alu.vhd" 20 rtl
+~E 1 "./src/reorderbuffer.vhd" 7 reorderbuffer
+~A 1 "./src/reorderbuffer.vhd" 23 rtl
+~E 1 "./src/testprocessor.vhd" 5 testp
+~A 1 "./src/testprocessor.vhd" 8 test
+~E 1 "./src/register.vhd" 6 rom
+~A 1 "./src/register.vhd" 23 rtl
+~E 1 "./src/testreorder.vhd" 5 testreorder
+~A 1 "./src/testreorder.vhd" 8 test

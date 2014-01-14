@@ -1,0 +1,80 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=2
+Current Config=compile
+
+[Configurations]
+compile=RISC_microprocessor
+
+[Library]
+RISC_microprocessor=.\RISC_microprocessor.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+EnableCC=0
+EnableEXC=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+EnableExpressionCoverage=0
+
+[LocalVhdlSets]
+EnableExpressionCoverage=0
+CompileWithDebug=0
+
+[$LibMap$]
+RISC_microprocessor=.
+Active_lib=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=testp|test|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/register.vhd=-1
+/ReorderBuffer.vhd=-1
+/registerForward.vhd=-1
+/ALU.vhd=-1
+/mpBeta.vhd=-1
+/testProcessor.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+/TestBench.vhd=-1
+/finaltest_ok.asdb=-1
+/finaltest_ok.awc=-1
+/testReorder.vhd=-1
+/REORDER_OK.asdb=-1
+/REORDER_OK.awc=-1
+
+[Files.Data]
+.\src\register.vhd=VHDL Source Code
+.\src\ReorderBuffer.vhd=VHDL Source Code
+.\src\registerForward.vhd=VHDL Source Code
+.\src\ALU.vhd=VHDL Source Code
+.\src\mpBeta.vhd=VHDL Source Code
+.\src\testProcessor.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench.vhd=VHDL Source Code
+.\src\finaltest_ok.asdb=Accelerated Waveform File
+.\src\finaltest_ok.awc=Accelerated Waveform Configuration
+.\src\testReorder.vhd=VHDL Source Code
+.\src\REORDER_OK.asdb=Accelerated Waveform File
+.\src\REORDER_OK.awc=Accelerated Waveform Configuration
+
